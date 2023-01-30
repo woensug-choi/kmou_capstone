@@ -13,8 +13,49 @@ html {
   margin: 0;
 }
 
+/* Add Nanum fonts */
+
+@font-face {
+  font-family: NanumSquareNeo;
+  src: url("./fonts/NanumSquareNeoOTF-aLt.otf") format('truetype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: NanumSquareNeo;
+  src: url("./fonts/NanumSquareNeoTTF-bRg.eot?#iefix") format('embedded-opentype'),
+       url("./fonts/NanumSquareNeoTTF-bRg.woff2") format('woff2'),
+       url("./fonts/NanumSquareNeoTTF-bRg.woff") format('woff'),
+       url("./fonts/NanumSquareNeoOTF-bRg.otf") format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: NanumSquareNeo;
+  src: url("./fonts/NanumSquareNeoTTF-cBd.eot?#iefix") format('embedded-opentype'),
+       url("./fonts/NanumSquareNeoTTF-cBd.woff2") format('woff2'),
+       url("./fonts/NanumSquareNeoTTF-cBd.woff") format('woff'),
+       url("./fonts/NanumSquareNeoOTF-cBd.otf") format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: NanumMyeongjo;
+  src: url("./fonts/NanumMyeongjo.otf") format('truetype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: NanumMyeongjo;
+  src: url("./fonts/NanumMyeongjoBold.otf") format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: NanumMyeongjo;
+  src: url("./fonts/NanumMyeongjoExtraBold.otf") format('truetype');
+  font-weight: 700;
+}
+
+
 body {
-  --notion-font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+  --notion-font: NanumSquareNeo, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', 'Noto Sans', sans-serif;
   font-family: var(--notion-font);
