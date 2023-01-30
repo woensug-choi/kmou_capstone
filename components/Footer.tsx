@@ -91,20 +91,8 @@ export const FooterImpl: React.FC = () => {
         {config.github && (
           <a
             className={styles.github}
-            href={`https://github.com/${config.github}`}
-            title={`GitHub @${config.github}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaGithub />
-          </a>
-        )}
-
-        {config.profile && (
-          <a
-            className={styles.profile}
             href={`https://woensug-choi.github.io`}
-            title={`Profile Site`}
+            title={`Woen-Sug Choi`}
             target='_blank'
             rel='noopener noreferrer'
           >
