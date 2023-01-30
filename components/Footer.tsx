@@ -39,7 +39,7 @@ export const FooterImpl: React.FC = () => {
       <div className={styles.copyright}>
         <p>
           Copyright 2023
-          <br>
+          <br></br>
           <a href="https://woensug-choi.github.io">Woen-Sug Choi</a>
         </p>
       </div>
